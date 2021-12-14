@@ -23,7 +23,6 @@ I aim to begin my professional career as FrontEnd Developer and develop in this 
 * HTML+CSS
     + [Another portfolio](https://bunchenko.github.io/my-site/) (with help of HTMLAcademy)
 * Graphics
-    + [Menu](img/menu.pdf)
     + [Collage](img/Collage.pdf)
     + [Company logo](img/Company-logo.pdf)
     + [Cover of a magazine](img/cover-mag.pdf)
