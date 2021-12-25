@@ -9,7 +9,7 @@
 * Email (andrew.by.one@gmail.com)
 *******
 ## About me
-I aim to begin my professional career as FrontEnd Developer and develop in this field. Currently studying at Francisk Skorina Gomel State University, department of Physics and IT. I am an easy learner, hard-working and productive person. Always excited to work in a big team!
+I aim to begin my professional career as FrontEnd Developer and develop in this field. Currently studying at Francisk Skorina Gomel State University, department of Physics and IT. I enjoy my hobbies a lot: listening to music, doing sports, reading books and coding. I am an easy learner, hard-working and productive person. Always excited to work in a big team!
 *******
 ## Skills
 * HTML (basics, semantic HTML, block and inline elements)
@@ -31,12 +31,12 @@ I aim to begin my professional career as FrontEnd Developer and develop in this 
 *******
 ## Code example
 ```
-var summation = function (num) {
-  let sum = 0;
-  for (let i = 1; i <= num; i++) { 
-    sum += i;
-    }
-  return sum;
+function descendingOrder(n){
+  let string = n.toString();
+  return Number(string
+                .split('')
+                .sort((a, b) => Number(b) - Number(a))
+                .join(''))
 }
 ```
 *******
