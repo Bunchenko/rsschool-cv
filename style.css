@@ -1,3 +1,56 @@
-head {
-    font-size: 20px;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 50%;
+}
+.profile {
+    padding-right: 100%;
+}
+
+.owner-name {
+    margin-top: 0;
+    font-size: 2em;
+    width: 500px;
+}
+
+body h1, h2{
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    margin-top: 0;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 40px;
+    font-size: 18px;
+    transition: 1s;
+}
+.nav-link:link {
+    text-decoration: none;
+    color: blueviolet;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
 }
