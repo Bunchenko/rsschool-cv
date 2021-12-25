@@ -1,5 +1,5 @@
 # Andrei Bunchenko
-![Photo of Andrei](img/Hero.jpg)
+![Photo of Andrei](assets/img/Hero.jpg)
 *Future FrontEnd Developer*
 *******
 ## Contacts
@@ -23,11 +23,11 @@ I aim to begin my professional career as FrontEnd Developer and develop in this 
 * HTML+CSS
     + [Another portfolio](https://bunchenko.github.io/my-site/) (with help of HTMLAcademy)
 * Graphics
-    + [Collage](img/Collage.pdf)
-    + [Company logo](img/Company-logo.pdf)
-    + [Cover of a magazine](img/cover-mag.pdf)
-    + [First page of a magazine](img/first-pg-mag.pdf)
-    + [Diploma](img/Diploma.pdf)
+    + [Collage](assets/img/Collage.pdf)
+    + [Company logo](assets/img/Company-logo.pdf)
+    + [Cover of a magazine](assets/img/cover-mag.pdf)
+    + [First page of a magazine](assets/img/first-pg-mag.pdf)
+    + [Diploma](assets/img/Diploma.pdf)
 *******
 ## Code example
 ```
