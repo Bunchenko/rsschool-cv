@@ -234,6 +234,10 @@ pre {
     list-style-type: "\1F5BB";
 }
 
+.list-style-type-none {
+    list-style-type: none;
+}
+
 footer {
     background-color: rgb(154, 151, 151);
 }

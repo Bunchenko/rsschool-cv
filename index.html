@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav class="nav">
-            <label for="my-name" class="logo"><a href="#home" class="home">Bunchenko</a></label>
+            <label class="logo"><a href="#home" class="home">Bunchenko</a></label>
             <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
@@ -63,33 +63,36 @@
             <h2 class="section-title">Projects</h2>
             <ul class="projects-list">
                 <li class="projects-list-li">HTML + CSS</li>
-                <ul class="projects-list-list">
-                    <li class="projects-list-li-li"><a href="https://bunchenko.github.io/my-site/">First ever portfolio (with help of HTMLAcademy)</a></li>
-                </ul>
+                <li class="list-style-type-none">
+                    <ul class="projects-list-list">
+                        <li class="projects-list-li-li"><a href="https://bunchenko.github.io/my-site/">First ever portfolio (with help of HTMLAcademy)</a></li>
+                    </ul>
+                </li>
                 <li class="projects-list-li">Graphics</li>
-                <ul class="projects-list-list-2">
-                    <li class="projects-list-li-li-2"><a href="assets/img/Collage.pdf">Collage</a></li>
-                    <li class="projects-list-li-li-2"><a href="assets/img/Company-logo.pdf">Company logo</a></li>
-                    <li class="projects-list-li-li-2"><a href="assets/img/cover-mag.pdf">Cover of a magazine</a></li>
-                    <li class="projects-list-li-li-2"><a href="assets/img/first-pg-mag.pdf">First page of a magazine</a></li>
-                    <li class="projects-list-li-li-2"><a href="assets/img/Diploma.pdf">Diploma</a></li>
-                </ul>
+                <li class="list-style-type-none">
+                    <ul class="projects-list-list-2">
+                        <li class="projects-list-li-li-2"><a href="assets/img/Collage.pdf">Collage</a></li>
+                        <li class="projects-list-li-li-2"><a href="assets/img/Company-logo.pdf">Company logo</a></li>
+                        <li class="projects-list-li-li-2"><a href="assets/img/cover-mag.pdf">Cover of a magazine</a></li>
+                        <li class="projects-list-li-li-2"><a href="assets/img/first-pg-mag.pdf">First page of a magazine</a></li>
+                        <li class="projects-list-li-li-2"><a href="assets/img/Diploma.pdf">Diploma</a></li>
+                    </ul>
+                </li>
             </ul>
         </section>
 
         <section class="code-example section" id="code-example">
             <h2 class="section-title">Code example</h2>
-            <code>
-            <pre>
+            <pre class="code">
 function descendingOrder(n){
     let string = n.toString();
     return Number(string
                   .split('')
-                  .sort((a, b) => Number(b) - Number(a))
+                  .sort((a, b) =>
+                  Number(b) - Number(a))
                   .join(''))
                   }
             </pre>
-            </code>
         </section>
 
         <section class="education section" id="education">
