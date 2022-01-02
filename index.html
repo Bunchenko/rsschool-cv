@@ -4,9 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/cv.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <nav class="nav">
+            <label class="logo"><a href="#home" class="home">Bunchenko</a></label>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">My projects</a></li>
+                <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english-level" class="nav-link"> English level</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container" id="home">
+
+        <section class="profile" id="profile">
+            <h1 class="section-title owner-name">Andrei Bunchenko</h1>
+            <img src="assets/img/Hero.jpg" alt="Andrei`s photo" class="hero-img">
+        </section>
+
+        <section class="summary section" id="summary">
+            <h2 class="section-title">About me</h2>
+            <p>
+                I aim to begin my professional career as FrontEnd Developer and success a lot in this field.
+                Currently studying at Francisk Skorina Gomel State University, department of Physics and IT.
+                I enjoy my hobbies a lot: listening to music, doing sports, reading books and coding.
+                I am an easy learner, hard-working and productive person. Always excited to work in a big team!
+            </p>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li class="skills-list-li">HTML (basics, semantic HTML, block and inline elements)</li>
+                <li class="skills-list-li">CSS (basics, flexbox)</li>
+                <li class="skills-list-li">JS (basics)</li>
+                <li class="skills-list-li">Git (basics)</li>
+                <li class="skills-list-li">Basic PhotoShop and CorelDRAW skills</li>
+                <li class="skills-list-li">Visual Studio Code</li>
+            </ul>
+        </section>
+
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <ul class="projects-list">
+                <li class="projects-list-li">HTML + CSS</li>
+                <li class="list-style-type-none">
+                    <ul class="projects-list-list">
+                        <li class="projects-list-li-li"><a href="https://bunchenko.github.io/my-site/" target="blank">First ever portfolio (with help of HTMLAcademy)</a></li>
+                    </ul>
+                </li>
+                <li class="projects-list-li">Graphics</li>
+                <li class="list-style-type-none">
+                    <ul class="projects-list-list-2">
+                        <li class="projects-list-li-li-2"><a href="assets/img/Collage.pdf" target="blank">Collage</a></li>
+                        <li class="projects-list-li-li-2"><a href="assets/img/Company-logo.pdf" target="blank">Company logo</a></li>
+                        <li class="projects-list-li-li-2"><a href="assets/img/cover-mag.pdf" target="blank">Cover of a magazine</a></li>
+                        <li class="projects-list-li-li-2"><a href="assets/img/first-pg-mag.pdf" target="blank">First page of a magazine</a></li>
+                        <li class="projects-list-li-li-2"><a href="assets/img/Diploma.pdf" target="blank">Diploma</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="code-example section" id="code-example">
+            <h2 class="section-title">Code example</h2>
+            <pre class="code">
+function descendingOrder(n){
+    let string = n.toString();
+    return Number(string
+                  .split('')
+                  .sort((a, b) =>
+                  Number(b) - Number(a))
+                  .join(''))
+                  }
+            </pre>
+        </section>
+
+        <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>
+                Currently studying at Francisk Skorina Gomel State University, department of Physics and IT (freshman).
+                Completed HTML/CSS courses at 
+                <a href="https://htmlacademy.ru/" class="academy" target="blank">HTMLAcademy</a>.
+                90% of the time I teach myself.
+            </p>
+        </section>
+
+        <section class="english-level section" id="english-level">
+            <h2 class="section-title">English level</h2>
+            <p>
+                My current English level is B2-C1.
+                <a href="https://www.efset.org/cert/4hLQMB" class="certificate" target="blank">[EF SET certificate]</a>
+                I can get by in any situation I face and read articles or documentations in English.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="contacts" id="contacts">
+
+        <span class="contacts-rsschool">
+            <a href="https://rs.school/js/" target="blank" class="contacts-rsschool-link">
+                <img src="assets/img/rs_school_js.svg" class="contacts-rsschool-link-image" alt="Rsscool logo">
+            </a>
+                <time datetime="2022-01-02">2022</time>
+        </span>
+
+        <ul class="contacts-list">
+            <li class="contacts-list-item"><a href="mailto:andrew.by.one@gmail.com" class="contacts-list-item-link" target="blank">andrew.by.one@gmail.com</a></li>
+            <li class="contacts-list-item"><a href="https://t.me/bunchenko" class="contacts-list-item-link" target="blank"><img src="assets/img/telegram.png" class="contacts-list-item-link-image" alt="Telegram icon">Telegram</a></li>
+            <li class="contacts-list-item"><a href="https://github.com/Bunchenko" class="contacts-list-item-link" target="blank"><img src="assets/img/github.png" class="contacts-list-item-link-image" alt="GitHub icon">GitHub</a></li>
+            <li class="contacts-list-item"><a href="https://www.linkedin.com/in/andrew-bunchenko-1bb505219/" class="contacts-list-item-link" target="blank"><img src="assets/img/discord.png" class="contacts-list-item-link-image" alt="Discord icon">Discord</a></li>
+            <li class="contacts-list-item"><a href="https://discord.com/users/318293364128743426/" class="contacts-list-item-link" target="blank"><img src="assets/img/linkedin.png" class="contacts-list-item-link-image" alt="LinkedIn icon">LinkedIn</a></li>
+        </ul>
+
+    </footer>
 </body>
 </html>
