@@ -306,7 +306,22 @@ time {
     .logo {
         font-size: 20px;
     }
+    .contacts {
+        flex-direction: column;
+    }
+    time {
+        align-self: center;
+    }
 
+}
+
+@media (max-width: 580px) {
+    .contacts-list {
+        flex-direction: column;
+    }
+    .contacts-list-item {
+        margin: 5px 0;
+    }
 }
 
 @media (max-width: 300px) {
