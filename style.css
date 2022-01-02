@@ -90,7 +90,7 @@ body h1, h2{
 
 .nav-link:link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .nav-link:hover {
@@ -101,7 +101,7 @@ body h1, h2{
 
 .nav-link:visited {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .home:link {
     color: black;
@@ -118,11 +118,12 @@ body h1, h2{
 
 .academy:link {
     color: white;
+    text-decoration: none;
 }
 
 .academy:hover {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .academy:visited {
@@ -130,11 +131,12 @@ body h1, h2{
 }
 .certificate:link {
     color: white;
+    text-decoration: none;
 }
 
 .certificate:hover {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .certificate:visited {
@@ -167,11 +169,12 @@ pre {
 
 .projects-list-li-li>a:link {
     color: white;
+    text-decoration: none;
 }
 
 .projects-list-li-li>a:hover {
     color: white;
-    text-decoration-line: none;
+    text-decoration-line: underline;
 }
 
 .projects-list-li-li>a:visited {
@@ -180,11 +183,12 @@ pre {
 
 .projects-list-li-li-2>a:link {
     color: white;
+    text-decoration: none;
 }
 
 .projects-list-li-li-2>a:hover {
     color: white;
-    text-decoration-line: none;
+    text-decoration-line: underline;
 }
 
 .projects-list-li-li-2>a:visited {
@@ -213,8 +217,61 @@ pre {
     list-style-type: none;
 }
 
-footer {
+.contacts {
     background-color: rgb(154, 151, 151);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-rsschool-link-image {
+    width: 151px;
+    height: 56px;
+}
+
+.contacts-rsschool-link {
+    text-decoration: none;
+}
+
+time {
+    align-self: flex-end;
+    color: black;
+    user-select: none;
+}
+.contacts-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.contacts-list-item-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contacts-list-item-link:link {
+    color: black;
+}
+
+.contacts-list-item-link:hover {
+    color: black;
+    text-decoration-line: underline;
+}
+
+.contacts-list-item-link:visited {
+    color: black;
+}
+
+.contacts-list-item-link-image {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 @media (max-width: 768px){
